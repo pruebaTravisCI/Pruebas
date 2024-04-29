@@ -12,7 +12,6 @@ deploy:
   provider: s3
   access_key_id: $acces_key
   secret_access_key: $secret_acces_key
-  local_dir: build/libs
   bucket: "pruebatravisci"
   on:
     branch: main
