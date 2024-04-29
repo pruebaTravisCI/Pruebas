@@ -14,7 +14,8 @@ deploy:
   secret_access_key: $secret_acces_key
   local_dir: build/libs
   bucket: "pruebatravisci"
-  skip_cleanup: true
+  on:
+    branch: main
 
 script:
   - ./gradlew build
