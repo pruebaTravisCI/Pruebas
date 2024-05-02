@@ -10,6 +10,6 @@ public class ApiContoller {
 	@GetMapping("/helloWold")
 	public String helloWorld(@RequestParam(name = "prueba", defaultValue = "mundo")String prueba){
 	
-		return "\"hola " + prueba + "\"";
+		return "\"hola " + prueba + "\" como estan";
 	}
 }
